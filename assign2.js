@@ -1,5 +1,6 @@
 var MongoClient = require('mongodb').MongoClient;
-var average = 0;MongoClient.connect('mongodb://localhost/last', function(err, db, callback) {
+var average = 0;
+MongoClient.connect('mongodb://localhost/last', function(err, db, callback) {
     if (err) {
         console.log(err);
     }
